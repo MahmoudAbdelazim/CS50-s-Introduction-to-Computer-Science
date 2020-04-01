@@ -1,0 +1,91 @@
+.nav-link {
+    font-size: 1.3em;
+    padding-right: 20px;
+}
+.main-heading {
+    font-family: 'Baloo Da 2',
+    cursive;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: normal;
+    margin-top: 100px;
+    color: rgb(0, 162, 255);
+}
+
+.main-paragraph {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.card-deck {
+    margin:0 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.prices-btn {
+    display: block;
+    margin: auto;
+    width: 160px;
+    margin-top: 50px;
+}
+
+.photo-album table .photos td a img{
+    width: 250px;
+    height: 150px;
+    transition: 0.2s;
+}
+
+.photo-album table .photos td a img:hover {
+    opacity: 0.6;
+}
+
+.photo-album table .photos td {
+    display: inline;
+}
+
+.photo-album {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+}
+
+.active-image {
+    display: block;
+}
+
+#active-image {
+    width: 1006px;
+    height: 600px;
+}
+
+.clicked-image {   
+    opacity: 0.6;
+}
+
+.my-form {
+    margin: 80px 400px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.info {
+    margin: auto;
+    width: fit-content;
+    margin-top: 70px;
+    font-size: 1.3rem;
+}

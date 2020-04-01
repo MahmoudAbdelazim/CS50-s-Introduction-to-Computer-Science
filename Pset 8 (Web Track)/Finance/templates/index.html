@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <table class="purchases">
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+        {% for row in rows %}
+        <tr>
+            <td>{{row["symbol"]}}</td>
+            <td>{{row["number"]}}</td>
+            <td>${{row["currentPrice"]}}</td>
+            <td>${{row["totalValue"]}}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td style="font-weight: bold">CASH</td>
+            <td> </td>
+            <td> </td>
+            <td>${{balance}}</td>
+        </tr>
+    </table>
+{% endblock %}
