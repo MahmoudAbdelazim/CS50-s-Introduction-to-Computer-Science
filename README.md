@@ -6,3 +6,10 @@ These are my solutions of HarvardX's [CS50](https://cs50.harvard.edu/x/2020) pro
 - Introduction to Algorithms and Data Structures
 - Programming in Python
 - Introduction to SQL
+
+### Web Track Content:
+- HTML
+- CSS
+- JavaScript
+- Flask
+- SQL
